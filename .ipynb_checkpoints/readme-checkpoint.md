@@ -1,6 +1,6 @@
-# Modern Portfolio Theory Based Portfolio Analysis and Optimization
+# Portfolio Analysis and Optimization using Post-Modern Portfolio Theory (PMPT)
 
-The project is about the **Post-Modern Portfolio Theory (MPT)** based analysis and optimization of a given portfolio’s returns based on individual investors’ risk tolerance. It is a continuation and evolution of the original project referenced in contributions section below.
+The project is about the **Post-Modern Portfolio Theory (PMPT)** based analysis and optimization of a given portfolio’s returns based on individual investors’ risk tolerance. It is a continuation and evolution of the original project referenced in contributions section below.
 
 The project tries to solve a typical business problem of a Portfolio Manager to find an optimal construction of an investment portfolio.
 
