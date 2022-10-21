@@ -28,7 +28,7 @@ class QuantMetrics:
     # No of trading days ina year
     num_trading_days = 252
     # Risk free rate of ??
-    risk_free_rate = 0.0275
+    risk_free_rate = 0.03
     # No of simulations in Monte Carlo
     num_random_portfolio_run = 10000
     # Rolling windos period of ??
