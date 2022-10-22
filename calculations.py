@@ -26,10 +26,10 @@ class MPTCalculations:
     """
 
     # Constants being used for this module
-    num_mc_runs = 1000
-    num_mc_years = 5
+    num_mc_runs = 1200
+    num_mc_years = 7
     initial_test_investment = 10000.00
-    historical_days_percent = 0.90
+    historical_days_percent = 0.975
     test_days_percent = 1 - historical_days_percent
 
     def mpt_pe_compute_portfolio_returns(asset_prices_returns_df, portfolio_volatility):
