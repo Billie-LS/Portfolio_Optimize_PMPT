@@ -151,7 +151,7 @@ class MCSimulation:
         # Use the `plot` function to create a probability distribution histogram of simulated ending prices
         # with markings for a 95% confidence interval
         plot_title = f"Distribution of Final Cumuluative Returns Across All {self.nSim} Simulations"
-        plt = self.simulated_return.iloc[-1, :].plot(kind='hist', bins=45,density=True,title=plot_title)
+        plt = self.simulated_return.iloc[-1, :].plot(kind='hist', bins=55,density=True,title=plot_title)
         plt.axvline(self.confidence_interval.iloc[0], color='r')
         plt.axvline(self.confidence_interval.iloc[1], color='r')
         return plt
