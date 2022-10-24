@@ -33,11 +33,13 @@ class DataCollection:
     # Specify portfolio sectors - basket of market index and assets
     blend_list = ['IBM', 'TSLA','TSM', 'NVDA', 'DVN', 'OXY','CNI', 'NOC','BHF', 'AIG']
     tech_list = ['AAPL', 'IBM', 'TSLA', 'GOOGL', 'MSFT','CSCO', 'TSM', 'NVDA']
-    energy_list = ['DVN', 'OXY', 'NEE', 'MRO', 'APA', 'PDC', 'CTRA']
+    energy_list = ['DVN', 'OXY', 'NEE', 'MRO', 'APA', 'CTRA']
     industrials_list = ['BA', 'GE', 'CNI', 'NOC', 'LPX', 'BLDR', 'AAL', 'CPA']
     financials_list = ['BHF', 'AIG', 'EQH', 'PFG', 'WBS']
     market = ['^GSPC']   # adding S&P 500 Index (^GSPC) for use in beta weighting 
 
+    # 'PDC',
+    
     def get_raw_data(basket_list, start, end):
         """
         Fetch raw data from Yahoo Finance API
