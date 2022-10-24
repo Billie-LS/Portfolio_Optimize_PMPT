@@ -33,9 +33,9 @@ class DataCollection:
     # Specify portfolio sectors - basket of market index and assets
     blend_list = ['IBM', 'TSLA','TSM', 'NVDA', 'DVN', 'OXY','CNI', 'NOC','BHF', 'AIG']
     tech_list = ['AAPL', 'IBM', 'TSLA', 'GOOGL', 'MSFT','CSCO', 'TSM', 'NVDA']
-    energy_list = ['DVN', 'OXY', 'NEE', 'MRO', 'APA', 'CTRA']
-    industrials_list = ['BA', 'GE', 'CNI', 'NOC', 'LPX', 'BLDR', 'AAL', 'CPA']
-    financials_list = ['BHF', 'AIG', 'EQH', 'PFG', 'WBS']
+    energy_list = ['DVN', 'OXY', 'NEE', 'MRO', 'APA', 'TRGP', 'PSX', 'EQT']
+    industrials_list = ['BA', 'GE', 'CNI', 'NOC', 'LPX', 'BLDR', 'AAL', 'CPA', 'CAR', 'CPA', 'HXL']
+    financials_list = ['BHF', 'AIG', 'EQH', 'PFG', 'WBS', 'UNM', 'FHN', 'LPLA']
     market = ['^GSPC']   # adding S&P 500 Index (^GSPC) for use in beta weighting 
 
     # 'PDC',
